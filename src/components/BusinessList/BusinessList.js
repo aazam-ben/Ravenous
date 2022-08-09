@@ -1,5 +1,5 @@
 import React from "react";
-import "./Business.css";
+import "./BusinessList.css";
 import "../Business/Business";
 import Business from "../Business/Business";
 
