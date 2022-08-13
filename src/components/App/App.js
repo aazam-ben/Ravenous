@@ -17,21 +17,14 @@ const business = {
   reviewCount: 90,
 };
 
-const businesses = {
-  business,
-  business,
-  business,
-  business,
-  business,
-  business,
-}
+const businesses = [business, business, business, business, business, business];
 
 function App() {
   return (
     <div className="App">
       <h1>Ravenous</h1>
       <SearchBar />
-      <BusinessList businesses={businesses} />
+      <BusinessList business={businesses} />
     </div>
   );
 }
